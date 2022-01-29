@@ -1,0 +1,20 @@
+PODS:
+  - Gifu (3.3.1)
+  - lottie-ios (3.3.0)
+
+DEPENDENCIES:
+  - Gifu
+  - lottie-ios
+
+SPEC REPOS:
+  trunk:
+    - Gifu
+    - lottie-ios
+
+SPEC CHECKSUMS:
+  Gifu: 416d4e38c4c2fed012f019e0a1d3ffcb58e5b842
+  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+
+PODFILE CHECKSUM: 2f5a9d889336b4420dea8a3e669371479ac2d3bf
+
+COCOAPODS: 1.11.2

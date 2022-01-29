@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17DA02C78A7CB08D64651A6D /* Pods_RxFlowDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50C1C34D2E32F2DE29F16E40 /* Pods_RxFlowDemo.framework */; };
+		EE2AA97F27A55FF400D8C0DF /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2AA97827A55FF300D8C0DF /* AppFlow.swift */; };
+		EE2AA98027A55FF400D8C0DF /* TempFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2AA97927A55FF300D8C0DF /* TempFlow.swift */; };
+		EE2AA98127A55FF400D8C0DF /* ProjectFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2AA97A27A55FF300D8C0DF /* ProjectFlow.swift */; };
+		EE2AA98227A55FF400D8C0DF /* LoginFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2AA97B27A55FF300D8C0DF /* LoginFlow.swift */; };
+		EE2AA98327A55FF400D8C0DF /* GNBFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2AA97C27A55FF300D8C0DF /* GNBFlow.swift */; };
+		EE2AA98427A55FF400D8C0DF /* HomeFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2AA97D27A55FF300D8C0DF /* HomeFlow.swift */; };
+		EE2AA98527A55FF400D8C0DF /* ChatFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2AA97E27A55FF300D8C0DF /* ChatFlow.swift */; };
+		EE2AA98727A55FFE00D8C0DF /* Steps.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2AA98627A55FFE00D8C0DF /* Steps.swift */; };
+		EE2AA98F27A5600700D8C0DF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2AA98827A5600700D8C0DF /* HomeViewController.swift */; };
+		EE2AA99027A5600700D8C0DF /* InChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2AA98927A5600700D8C0DF /* InChatViewController.swift */; };
+		EE2AA99127A5600700D8C0DF /* InProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2AA98A27A5600700D8C0DF /* InProjectViewController.swift */; };
+		EE2AA99227A5600700D8C0DF /* TempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2AA98B27A5600700D8C0DF /* TempViewController.swift */; };
+		EE2AA99327A5600700D8C0DF /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2AA98C27A5600700D8C0DF /* ListViewController.swift */; };
+		EE2AA99427A5600700D8C0DF /* ChatCommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2AA98D27A5600700D8C0DF /* ChatCommentViewController.swift */; };
+		EE2AA99527A5600700D8C0DF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2AA98E27A5600700D8C0DF /* LoginViewController.swift */; };
+		EEAA29C827A55E490027F607 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAA29C727A55E490027F607 /* AppDelegate.swift */; };
+		EEAA29CA27A55E490027F607 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAA29C927A55E490027F607 /* SceneDelegate.swift */; };
+		EEAA29D127A55E4A0027F607 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAA29D027A55E4A0027F607 /* Assets.xcassets */; };
+		EEAA29D427A55E4A0027F607 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAA29D227A55E4A0027F607 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		50C1C34D2E32F2DE29F16E40 /* Pods_RxFlowDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxFlowDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65605D3AEAE8C2DC5225139F /* Pods-RxFlowDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxFlowDemo.debug.xcconfig"; path = "Target Support Files/Pods-RxFlowDemo/Pods-RxFlowDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D0D4E0F2125525E5859DD431 /* Pods-RxFlowDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxFlowDemo.release.xcconfig"; path = "Target Support Files/Pods-RxFlowDemo/Pods-RxFlowDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EE2AA97827A55FF300D8C0DF /* AppFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
+		EE2AA97927A55FF300D8C0DF /* TempFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempFlow.swift; sourceTree = "<group>"; };
+		EE2AA97A27A55FF300D8C0DF /* ProjectFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectFlow.swift; sourceTree = "<group>"; };
+		EE2AA97B27A55FF300D8C0DF /* LoginFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginFlow.swift; sourceTree = "<group>"; };
+		EE2AA97C27A55FF300D8C0DF /* GNBFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GNBFlow.swift; sourceTree = "<group>"; };
+		EE2AA97D27A55FF300D8C0DF /* HomeFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeFlow.swift; sourceTree = "<group>"; };
+		EE2AA97E27A55FF300D8C0DF /* ChatFlow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatFlow.swift; sourceTree = "<group>"; };
+		EE2AA98627A55FFE00D8C0DF /* Steps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Steps.swift; sourceTree = "<group>"; };
+		EE2AA98827A5600700D8C0DF /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EE2AA98927A5600700D8C0DF /* InChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InChatViewController.swift; sourceTree = "<group>"; };
+		EE2AA98A27A5600700D8C0DF /* InProjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InProjectViewController.swift; sourceTree = "<group>"; };
+		EE2AA98B27A5600700D8C0DF /* TempViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempViewController.swift; sourceTree = "<group>"; };
+		EE2AA98C27A5600700D8C0DF /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		EE2AA98D27A5600700D8C0DF /* ChatCommentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatCommentViewController.swift; sourceTree = "<group>"; };
+		EE2AA98E27A5600700D8C0DF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EEAA29C427A55E490027F607 /* RxFlowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxFlowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAA29C727A55E490027F607 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEAA29C927A55E490027F607 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EEAA29D027A55E4A0027F607 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEAA29D327A55E4A0027F607 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEAA29D527A55E4A0027F607 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEAA29C127A55E490027F607 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DA02C78A7CB08D64651A6D /* Pods_RxFlowDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3C342AD923EAD92A7D3F70A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50C1C34D2E32F2DE29F16E40 /* Pods_RxFlowDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE2AA99627A5606500D8C0DF /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				EE2AA97827A55FF300D8C0DF /* AppFlow.swift */,
+				EE2AA97E27A55FF300D8C0DF /* ChatFlow.swift */,
+				EE2AA97C27A55FF300D8C0DF /* GNBFlow.swift */,
+				EE2AA97D27A55FF300D8C0DF /* HomeFlow.swift */,
+				EE2AA97B27A55FF300D8C0DF /* LoginFlow.swift */,
+				EE2AA97A27A55FF300D8C0DF /* ProjectFlow.swift */,
+				EE2AA97927A55FF300D8C0DF /* TempFlow.swift */,
+			);
+			path = Flow;
+			sourceTree = "<group>";
+		};
+		EE2AA99727A5606B00D8C0DF /* Step */ = {
+			isa = PBXGroup;
+			children = (
+				EE2AA98627A55FFE00D8C0DF /* Steps.swift */,
+			);
+			path = Step;
+			sourceTree = "<group>";
+		};
+		EE2AA99827A5607100D8C0DF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EE2AA98D27A5600700D8C0DF /* ChatCommentViewController.swift */,
+				EE2AA98827A5600700D8C0DF /* HomeViewController.swift */,
+				EE2AA98927A5600700D8C0DF /* InChatViewController.swift */,
+				EE2AA98A27A5600700D8C0DF /* InProjectViewController.swift */,
+				EE2AA98C27A5600700D8C0DF /* ListViewController.swift */,
+				EE2AA98E27A5600700D8C0DF /* LoginViewController.swift */,
+				EE2AA98B27A5600700D8C0DF /* TempViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EEAA29BB27A55E490027F607 = {
+			isa = PBXGroup;
+			children = (
+				EEAA29C627A55E490027F607 /* RxFlowDemo */,
+				EEAA29C527A55E490027F607 /* Products */,
+				F0E9A57D3B1607336B925273 /* Pods */,
+				D3C342AD923EAD92A7D3F70A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEAA29C527A55E490027F607 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEAA29C427A55E490027F607 /* RxFlowDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEAA29C627A55E490027F607 /* RxFlowDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EE2AA99627A5606500D8C0DF /* Flow */,
+				EE2AA99727A5606B00D8C0DF /* Step */,
+				EE2AA99827A5607100D8C0DF /* ViewController */,
+				EEAA29C727A55E490027F607 /* AppDelegate.swift */,
+				EEAA29C927A55E490027F607 /* SceneDelegate.swift */,
+				EEAA29D027A55E4A0027F607 /* Assets.xcassets */,
+				EEAA29D227A55E4A0027F607 /* LaunchScreen.storyboard */,
+				EEAA29D527A55E4A0027F607 /* Info.plist */,
+			);
+			path = RxFlowDemo;
+			sourceTree = "<group>";
+		};
+		F0E9A57D3B1607336B925273 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65605D3AEAE8C2DC5225139F /* Pods-RxFlowDemo.debug.xcconfig */,
+				D0D4E0F2125525E5859DD431 /* Pods-RxFlowDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEAA29C327A55E490027F607 /* RxFlowDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEAA29D827A55E4A0027F607 /* Build configuration list for PBXNativeTarget "RxFlowDemo" */;
+			buildPhases = (
+				6922D80D304017CC2E172CAF /* [CP] Check Pods Manifest.lock */,
+				EEAA29C027A55E490027F607 /* Sources */,
+				EEAA29C127A55E490027F607 /* Frameworks */,
+				EEAA29C227A55E490027F607 /* Resources */,
+				712250E884BFA7DABB9760C6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxFlowDemo;
+			productName = RxFlowDemo;
+			productReference = EEAA29C427A55E490027F607 /* RxFlowDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEAA29BC27A55E490027F607 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EEAA29C327A55E490027F607 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EEAA29BF27A55E490027F607 /* Build configuration list for PBXProject "RxFlowDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEAA29BB27A55E490027F607;
+			productRefGroup = EEAA29C527A55E490027F607 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEAA29C327A55E490027F607 /* RxFlowDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEAA29C227A55E490027F607 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAA29D427A55E4A0027F607 /* LaunchScreen.storyboard in Resources */,
+				EEAA29D127A55E4A0027F607 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6922D80D304017CC2E172CAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxFlowDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		712250E884BFA7DABB9760C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxFlowDemo/Pods-RxFlowDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxFlowDemo/Pods-RxFlowDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxFlowDemo/Pods-RxFlowDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEAA29C027A55E490027F607 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAA29C827A55E490027F607 /* AppDelegate.swift in Sources */,
+				EE2AA98727A55FFE00D8C0DF /* Steps.swift in Sources */,
+				EE2AA99227A5600700D8C0DF /* TempViewController.swift in Sources */,
+				EE2AA98527A55FF400D8C0DF /* ChatFlow.swift in Sources */,
+				EE2AA99027A5600700D8C0DF /* InChatViewController.swift in Sources */,
+				EE2AA97F27A55FF400D8C0DF /* AppFlow.swift in Sources */,
+				EE2AA98427A55FF400D8C0DF /* HomeFlow.swift in Sources */,
+				EEAA29CA27A55E490027F607 /* SceneDelegate.swift in Sources */,
+				EE2AA99327A5600700D8C0DF /* ListViewController.swift in Sources */,
+				EE2AA98027A55FF400D8C0DF /* TempFlow.swift in Sources */,
+				EE2AA98F27A5600700D8C0DF /* HomeViewController.swift in Sources */,
+				EE2AA98127A55FF400D8C0DF /* ProjectFlow.swift in Sources */,
+				EE2AA99427A5600700D8C0DF /* ChatCommentViewController.swift in Sources */,
+				EE2AA99527A5600700D8C0DF /* LoginViewController.swift in Sources */,
+				EE2AA98327A55FF400D8C0DF /* GNBFlow.swift in Sources */,
+				EE2AA99127A5600700D8C0DF /* InProjectViewController.swift in Sources */,
+				EE2AA98227A55FF400D8C0DF /* LoginFlow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEAA29D227A55E4A0027F607 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEAA29D327A55E4A0027F607 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEAA29D627A55E4A0027F607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEAA29D727A55E4A0027F607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEAA29D927A55E4A0027F607 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65605D3AEAE8C2DC5225139F /* Pods-RxFlowDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DM2N47UXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RxFlowDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = switkevin.RxFlowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEAA29DA27A55E4A0027F607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0D4E0F2125525E5859DD431 /* Pods-RxFlowDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DM2N47UXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RxFlowDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = switkevin.RxFlowDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEAA29BF27A55E490027F607 /* Build configuration list for PBXProject "RxFlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAA29D627A55E4A0027F607 /* Debug */,
+				EEAA29D727A55E4A0027F607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEAA29D827A55E4A0027F607 /* Build configuration list for PBXNativeTarget "RxFlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEAA29D927A55E4A0027F607 /* Debug */,
+				EEAA29DA27A55E4A0027F607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEAA29BC27A55E490027F607 /* Project object */;
+}

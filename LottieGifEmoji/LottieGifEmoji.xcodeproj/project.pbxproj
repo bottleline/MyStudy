@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B990FAE977D46450CC16786 /* Pods_LottieGifEmoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9516EFE1A8723DE061C6ECF6 /* Pods_LottieGifEmoji.framework */; };
+		EEAA29B227A55D680027F607 /* MyTextAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAA29B127A55D680027F607 /* MyTextAttachment.swift */; };
+		EEAA29B627A55DA00027F607 /* bananadance.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEAA29B327A55DA00027F607 /* bananadance.gif */; };
+		EEAA29B727A55DA00027F607 /* heart2.json in Resources */ = {isa = PBXBuildFile; fileRef = EEAA29B427A55DA00027F607 /* heart2.json */; };
+		EEAA29B827A55DA00027F607 /* heart.json in Resources */ = {isa = PBXBuildFile; fileRef = EEAA29B527A55DA00027F607 /* heart.json */; };
+		EEAA29BA27A55DF40027F607 /* TextView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAA29B927A55DF40027F607 /* TextView+Extension.swift */; };
+		EED6F1F527A55D1000D98D6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6F1F427A55D1000D98D6B /* AppDelegate.swift */; };
+		EED6F1F727A55D1000D98D6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6F1F627A55D1000D98D6B /* SceneDelegate.swift */; };
+		EED6F1F927A55D1000D98D6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED6F1F827A55D1000D98D6B /* ViewController.swift */; };
+		EED6F1FC27A55D1000D98D6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED6F1FA27A55D1000D98D6B /* Main.storyboard */; };
+		EED6F1FE27A55D1100D98D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED6F1FD27A55D1100D98D6B /* Assets.xcassets */; };
+		EED6F20127A55D1100D98D6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED6F1FF27A55D1100D98D6B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B13950ED7260F2EBBAFFFE4 /* Pods-LottieGifEmoji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieGifEmoji.debug.xcconfig"; path = "Target Support Files/Pods-LottieGifEmoji/Pods-LottieGifEmoji.debug.xcconfig"; sourceTree = "<group>"; };
+		813BFD1C5FE54A4A794B0E00 /* Pods-LottieGifEmoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieGifEmoji.release.xcconfig"; path = "Target Support Files/Pods-LottieGifEmoji/Pods-LottieGifEmoji.release.xcconfig"; sourceTree = "<group>"; };
+		9516EFE1A8723DE061C6ECF6 /* Pods_LottieGifEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieGifEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEAA29B127A55D680027F607 /* MyTextAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTextAttachment.swift; sourceTree = "<group>"; };
+		EEAA29B327A55DA00027F607 /* bananadance.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = bananadance.gif; sourceTree = "<group>"; };
+		EEAA29B427A55DA00027F607 /* heart2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heart2.json; sourceTree = "<group>"; };
+		EEAA29B527A55DA00027F607 /* heart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heart.json; sourceTree = "<group>"; };
+		EEAA29B927A55DF40027F607 /* TextView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextView+Extension.swift"; sourceTree = "<group>"; };
+		EED6F1F127A55D1000D98D6B /* LottieGifEmoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LottieGifEmoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EED6F1F427A55D1000D98D6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EED6F1F627A55D1000D98D6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EED6F1F827A55D1000D98D6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EED6F1FB27A55D1000D98D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EED6F1FD27A55D1100D98D6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EED6F20027A55D1100D98D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EED6F20227A55D1100D98D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EED6F1EE27A55D1000D98D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B990FAE977D46450CC16786 /* Pods_LottieGifEmoji.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3824DC4C577525021D89421 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9516EFE1A8723DE061C6ECF6 /* Pods_LottieGifEmoji.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9B998C2F1B0700FCE4C751D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B13950ED7260F2EBBAFFFE4 /* Pods-LottieGifEmoji.debug.xcconfig */,
+				813BFD1C5FE54A4A794B0E00 /* Pods-LottieGifEmoji.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EED6F1E827A55D1000D98D6B = {
+			isa = PBXGroup;
+			children = (
+				EED6F1F327A55D1000D98D6B /* LottieGifEmoji */,
+				EED6F1F227A55D1000D98D6B /* Products */,
+				C9B998C2F1B0700FCE4C751D /* Pods */,
+				B3824DC4C577525021D89421 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EED6F1F227A55D1000D98D6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EED6F1F127A55D1000D98D6B /* LottieGifEmoji.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EED6F1F327A55D1000D98D6B /* LottieGifEmoji */ = {
+			isa = PBXGroup;
+			children = (
+				EEAA29B327A55DA00027F607 /* bananadance.gif */,
+				EEAA29B527A55DA00027F607 /* heart.json */,
+				EEAA29B427A55DA00027F607 /* heart2.json */,
+				EED6F1F427A55D1000D98D6B /* AppDelegate.swift */,
+				EED6F1F627A55D1000D98D6B /* SceneDelegate.swift */,
+				EEAA29B127A55D680027F607 /* MyTextAttachment.swift */,
+				EED6F1F827A55D1000D98D6B /* ViewController.swift */,
+				EEAA29B927A55DF40027F607 /* TextView+Extension.swift */,
+				EED6F1FA27A55D1000D98D6B /* Main.storyboard */,
+				EED6F1FD27A55D1100D98D6B /* Assets.xcassets */,
+				EED6F1FF27A55D1100D98D6B /* LaunchScreen.storyboard */,
+				EED6F20227A55D1100D98D6B /* Info.plist */,
+			);
+			path = LottieGifEmoji;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EED6F1F027A55D1000D98D6B /* LottieGifEmoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED6F20527A55D1100D98D6B /* Build configuration list for PBXNativeTarget "LottieGifEmoji" */;
+			buildPhases = (
+				70CA52441479B4FA16086218 /* [CP] Check Pods Manifest.lock */,
+				EED6F1ED27A55D1000D98D6B /* Sources */,
+				EED6F1EE27A55D1000D98D6B /* Frameworks */,
+				EED6F1EF27A55D1000D98D6B /* Resources */,
+				D704601343727A7D64C28C50 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LottieGifEmoji;
+			productName = LottieGifEmoji;
+			productReference = EED6F1F127A55D1000D98D6B /* LottieGifEmoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EED6F1E927A55D1000D98D6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EED6F1F027A55D1000D98D6B = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = EED6F1EC27A55D1000D98D6B /* Build configuration list for PBXProject "LottieGifEmoji" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EED6F1E827A55D1000D98D6B;
+			productRefGroup = EED6F1F227A55D1000D98D6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EED6F1F027A55D1000D98D6B /* LottieGifEmoji */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EED6F1EF27A55D1000D98D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED6F20127A55D1100D98D6B /* LaunchScreen.storyboard in Resources */,
+				EED6F1FE27A55D1100D98D6B /* Assets.xcassets in Resources */,
+				EEAA29B827A55DA00027F607 /* heart.json in Resources */,
+				EED6F1FC27A55D1000D98D6B /* Main.storyboard in Resources */,
+				EEAA29B627A55DA00027F607 /* bananadance.gif in Resources */,
+				EEAA29B727A55DA00027F607 /* heart2.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70CA52441479B4FA16086218 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LottieGifEmoji-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D704601343727A7D64C28C50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LottieGifEmoji/Pods-LottieGifEmoji-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LottieGifEmoji/Pods-LottieGifEmoji-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LottieGifEmoji/Pods-LottieGifEmoji-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EED6F1ED27A55D1000D98D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EED6F1F927A55D1000D98D6B /* ViewController.swift in Sources */,
+				EEAA29BA27A55DF40027F607 /* TextView+Extension.swift in Sources */,
+				EEAA29B227A55D680027F607 /* MyTextAttachment.swift in Sources */,
+				EED6F1F527A55D1000D98D6B /* AppDelegate.swift in Sources */,
+				EED6F1F727A55D1000D98D6B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EED6F1FA27A55D1000D98D6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED6F1FB27A55D1000D98D6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EED6F1FF27A55D1100D98D6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EED6F20027A55D1100D98D6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EED6F20327A55D1100D98D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EED6F20427A55D1100D98D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EED6F20627A55D1100D98D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B13950ED7260F2EBBAFFFE4 /* Pods-LottieGifEmoji.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DM2N47UXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LottieGifEmoji/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = switkevin.LottieGifEmoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EED6F20727A55D1100D98D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 813BFD1C5FE54A4A794B0E00 /* Pods-LottieGifEmoji.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5DM2N47UXQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LottieGifEmoji/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = switkevin.LottieGifEmoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EED6F1EC27A55D1000D98D6B /* Build configuration list for PBXProject "LottieGifEmoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED6F20327A55D1100D98D6B /* Debug */,
+				EED6F20427A55D1100D98D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED6F20527A55D1100D98D6B /* Build configuration list for PBXNativeTarget "LottieGifEmoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED6F20627A55D1100D98D6B /* Debug */,
+				EED6F20727A55D1100D98D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EED6F1E927A55D1000D98D6B /* Project object */;
+}
