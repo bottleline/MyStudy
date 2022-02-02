@@ -1,0 +1,20 @@
+PODS:
+  - SnapKit (5.0.1)
+  - Typist (1.4.2)
+
+DEPENDENCIES:
+  - SnapKit
+  - Typist
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+    - Typist
+
+SPEC CHECKSUMS:
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Typist: 06465ab9867782aa6c81e38f073dfc01dab73deb
+
+PODFILE CHECKSUM: 4a20bd06baa96da684cf2b9058214e9cb900ec57
+
+COCOAPODS: 1.11.2
